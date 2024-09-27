@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist",
+    "target": "ES2022" /* Node.js 16+ */, // emit version (js) https://compat-table.github.io/compat-table/es2016plus/#node18_3
+    "module": "CommonJS" /* package.json type: commonjs */, // emit module
+    "moduleResolution": "Node" /* CommonJS */, // emit module resolution
+    "lib": ["ESNext", "DOM"] /* @types/node */, // transpile version (ts)
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "strict": true,
+    "alwaysStrict": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
